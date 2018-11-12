@@ -30,5 +30,6 @@ public class MainActivity extends AppCompatActivity {
         handler.sendEmptyMessageDelayed(0,5000);
         //3초 후 화면 전환
     }
+
 }
 
