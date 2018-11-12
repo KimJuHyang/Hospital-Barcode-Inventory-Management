@@ -21,6 +21,7 @@
         <activity android:name=".login" />
         <activity android:name=".ManagerMenu" />
         <activity android:name=".PrimaryMenu"></activity>
+
     </application>
 
 </manifest>
