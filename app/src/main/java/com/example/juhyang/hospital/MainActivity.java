@@ -11,9 +11,13 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.Window;
+import android.widget.EditText;
+import android.widget.ProgressBar;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private  static int progress_percent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +31,47 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         };
-        handler.sendEmptyMessageDelayed(0,5000);
         //3초 후 화면 전환
+
+
+
+        ProgressBar progress = (ProgressBar) findViewById(R.id.progress);
+        progress_percent = 0;
+
+        final Intent intent = new Intent(MainActivity.this, login.class);
+
+        new Thread() {
+            public void run() {
+                while (true) {
+                    try {
+                        while (!Thread.currentThread().isInterrupted()){
+                            progress_percent += 20;
+                            Thread.sleep(1000);
+                            ProgressBar progress = (ProgressBar) findViewById(R.id.progress);
+                            progress.setProgress(progress_percent);
+
+                            if (progress_percent >= 100) {
+                                startActivity(intent);
+                                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                                currentThread().interrupt();
+
+                            }
+                        }
+                    } catch (Throwable t) {
+
+                    } finally {
+
+                    }
+                }
+            }
+        }.start();
+
     }
 
+
 }
+
+
+
+
 
