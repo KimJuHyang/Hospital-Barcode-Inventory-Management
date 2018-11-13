@@ -2,16 +2,9 @@ package com.example.juhyang.hospital;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Activity;
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.app.Notification;
 import android.content.Intent;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.view.Window;
-import android.widget.EditText;
 import android.widget.ProgressBar;
 
 
@@ -31,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         };
-        //3초 후 화면 전환
 
 
 
@@ -45,8 +37,8 @@ public class MainActivity extends AppCompatActivity {
                 while (true) {
                     try {
                         while (!Thread.currentThread().isInterrupted()){
-                            progress_percent += 20;
-                            Thread.sleep(1000);
+                            progress_percent += 1;
+                            Thread.sleep(30);
                             ProgressBar progress = (ProgressBar) findViewById(R.id.progress);
                             progress.setProgress(progress_percent);
 
