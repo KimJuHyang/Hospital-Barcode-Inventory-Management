@@ -19,7 +19,7 @@ public class PrimaryMenu extends AppCompatActivity {
         String data = intent.getStringExtra("value");
 
         final TextView tv = (TextView)findViewById(R.id.departText);
-        tv.setText(data);
+        tv.setText(data); //어느 부서인지 표시해주기.
 
     }
 }

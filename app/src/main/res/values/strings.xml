@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name"></string>
+    <string name="title_activity_m__purchase">M_Purchase</string>
+    <string name="title_activity_m__inventory_status">M_InventoryStatus</string>
+    <string name="title_activity_m__stock_out">M_StockOut</string>
+    <string name="title_activity_p__used">P_Used</string>
+    <string name="title_activity_p__request">P_Request</string>
 </resources>

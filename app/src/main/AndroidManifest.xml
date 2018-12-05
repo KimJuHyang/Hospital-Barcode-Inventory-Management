@@ -18,12 +18,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            />
-        <activity android:name=".ManagerMenu" android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".PrimaryMenu" android:theme="@style/Theme.AppCompat.NoActionBar" ></activity>
-
+        <activity
+            android:name=".login"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ManagerMenu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".PrimaryMenu"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".M_Purchase"
+            android:label="@string/title_activity_m__purchase" />
+        <activity
+            android:name=".M_InventoryStatus"
+            android:label="@string/title_activity_m__inventory_status" />
+        <activity
+            android:name=".M_StockOut"
+            android:label="@string/title_activity_m__stock_out" />
+        <activity
+            android:name=".P_Used"
+            android:label="@string/title_activity_p__used" />
+        <activity
+            android:name=".P_Request"
+            android:label="@string/title_activity_p__request"></activity>
     </application>
 
 </manifest>
