@@ -21,8 +21,8 @@
         <activity android:name=".login"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             />
-        <activity android:name=".ManagerMenu" />
-        <activity android:name=".PrimaryMenu"></activity>
+        <activity android:name=".ManagerMenu" android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".PrimaryMenu" android:theme="@style/Theme.AppCompat.NoActionBar" ></activity>
 
     </application>
 
