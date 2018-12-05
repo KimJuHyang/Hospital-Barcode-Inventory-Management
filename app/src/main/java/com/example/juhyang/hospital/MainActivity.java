@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
-
         ProgressBar progress = (ProgressBar) findViewById(R.id.progress);
         progress_percent = 0;
 
