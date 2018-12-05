@@ -25,7 +25,7 @@
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -46,16 +46,16 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="329dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginRight="155dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
         android:text="재고관리자"
 
         android:textColor="@color/red"
         android:textSize="20dp" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/purchase"
         android:layout_width="293dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
@@ -67,7 +67,7 @@
         app:srcCompat="@drawable/button" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/inventory_status"
         android:layout_width="293dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
@@ -79,7 +79,7 @@
         app:srcCompat="@drawable/button" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/stock_out"
         android:layout_width="293dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
