@@ -55,7 +55,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="233dp"
         android:layout_marginEnd="146dp"
         android:layout_marginRight="146dp"
         android:text="한대희"
@@ -132,7 +132,19 @@
         android:layout_alignStart="@+id/textView11"
         android:layout_alignParentTop="true"
         android:layout_marginStart="11dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginTop="35dp"
         app:srcCompat="@drawable/boy" />
+
+    <TextView
+        android:id="@+id/departText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="50dp"
+        android:text="TextView"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
 
 </RelativeLayout>
