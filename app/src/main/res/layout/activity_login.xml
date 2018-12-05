@@ -123,6 +123,47 @@
         android:textColor="@color/primary"
         android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="266dp"
+        android:text="부서를 선택하세요"
+        android:textColor="@color/primary"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignBottom="@+id/imageView11"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="이름을 입력하세요"
+        android:inputType="text|textPersonName"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/primary"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:hint="비밀번호를 입력하세요"
+        android:inputType="numberPassword"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/primary"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>
