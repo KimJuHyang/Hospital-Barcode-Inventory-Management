@@ -20,6 +20,7 @@
         android:layout_marginLeft="76dp"
         android:layout_marginTop="20dp"
         android:text="서울스페셜병원 재고관리시스템"
+        android:textStyle="bold"
         android:textColor="@color/primary"
         android:textSize="20dp" />
 
@@ -30,12 +31,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="272dp"
-        android:layout_marginEnd="148dp"
-        android:layout_marginRight="148dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginRight="146dp"
         android:text="김주향"
         android:textColor="@color/primary"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView9"
@@ -48,43 +50,44 @@
         android:layout_marginEnd="155dp"
         android:layout_marginRight="155dp"
         android:text="재고관리자"
+
         android:textColor="@color/red"
         android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="293dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="58dp"
-        android:layout_marginRight="58dp"
-        android:layout_marginBottom="223dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="217dp"
         app:srcCompat="@drawable/button" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="293dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginRight="57dp"
-        android:layout_marginBottom="137dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="128dp"
         app:srcCompat="@drawable/button" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="293dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="57dp"
-        android:layout_marginRight="57dp"
-        android:layout_marginBottom="47dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="43dp"
         app:srcCompat="@drawable/button" />
 
     <TextView
@@ -105,11 +108,12 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView10"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="151dp"
-        android:textStyle="bold"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="148dp"
         android:text="재고 현황"
         android:textColor="@color/bg"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView14"
@@ -117,11 +121,12 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView10"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="60dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="63dp"
         android:text="불출 관리"
         android:textColor="@color/bg"
-        android:textStyle="bold"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -130,7 +135,19 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="105dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="99dp"
         app:srcCompat="@drawable/girl" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/listIcon" />
 
 </RelativeLayout>
