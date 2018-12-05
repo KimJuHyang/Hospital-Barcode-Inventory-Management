@@ -17,9 +17,12 @@ public class PrimaryMenu extends AppCompatActivity {
 
         Intent intent = getIntent();
         String data = intent.getStringExtra("value");
+        String name = intent.getStringExtra("name");
 
         final TextView tv = (TextView)findViewById(R.id.departText);
         tv.setText(data); //어느 부서인지 표시해주기.
 
+        final TextView myname = (TextView)findViewById(R.id.nameText);
+        myname.setText(name); // 이름 표시
     }
 }

@@ -137,7 +137,7 @@
 
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/name"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView6"
