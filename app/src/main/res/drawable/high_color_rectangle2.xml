@@ -9,7 +9,7 @@
         android:bottom="1dip"
         />
     <solid
-        android:color="#BCE0FD"
+        android:color="#F1F9FF"
         />
 
 </shape>

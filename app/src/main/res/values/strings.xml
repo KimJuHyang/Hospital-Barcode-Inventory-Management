@@ -7,4 +7,12 @@
     <string name="title_activity_p__request">P_Request</string>
     <string name="title_activity_m__purchase2">M_Purchase2</string>
     <string name="title_activity_purchasetest">Purchasetest</string>
+    <string name="title_activity_m_stock_request">M_stock_request</string>
+    <string name="title_activity_m_stock__map">M_stock_MAP</string>
+
+    <string name="title_activity_m_camera">M_camera</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_p_camera">P_camera</string>
 </resources>

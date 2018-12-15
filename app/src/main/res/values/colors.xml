@@ -6,4 +6,6 @@
     <color name="bg">#ffffff</color>
     <color name="primary">#2699fb</color>
     <color name="red">#C43E48</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

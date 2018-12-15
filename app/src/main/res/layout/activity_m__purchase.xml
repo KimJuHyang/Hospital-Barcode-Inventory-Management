@@ -114,12 +114,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
         android:text="매입 관리"
         android:textColor="@color/primary"
         android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -200,7 +203,7 @@
         android:layout_height="34dp"
         android:layout_alignStart="@+id/textView19"
         android:layout_alignBottom="@+id/textView20"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="-9dp"
         android:layout_marginBottom="0dp"
         android:src="@drawable/plus" />
 

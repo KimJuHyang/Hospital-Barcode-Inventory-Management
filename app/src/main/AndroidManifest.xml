@@ -45,6 +45,22 @@
         <activity
             android:name=".M_Purchase2"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".M_stock_request"
+            android:label="@string/title_activity_m_stock_request" />
+        <activity
+            android:name=".M_stock_MAP"
+            android:label="@string/title_activity_m_stock__map" />
+        <activity
+            android:name=".M_camera"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_m_camera"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".P_camera"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_p_camera"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>

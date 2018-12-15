@@ -7,4 +7,10 @@
         <item >수술부</item>
         <item >입원부</item>
     </string-array>
+
+    <string-array name="inventory">
+        <item>수량 적은순</item>
+        <item>사용량 많은순</item>
+        <item>사용기한 순</item>
+    </string-array>
 </resources>

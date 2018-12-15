@@ -7,4 +7,173 @@
     android:paddingRight="0dp"
     android:background="@color/bg"
     >
+
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/listicon" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:text="의료품 사용"
+        android:textSize="20dp"
+        android:textColor="@color/primary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView32"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="0dp"
+        android:text="환자명"
+        android:textColor="@color/primary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="231dp"
+        android:text="생년월일"
+        android:textColor="@color/primary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="289dp"
+        android:text="성별"
+        android:textColor="@color/primary"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="217dp"
+        android:layout_height="59dp"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-48dp"
+        android:layout_marginTop="85dp"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView31"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="-6dp"
+        android:text="환자 검색"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="175dp"
+        app:srcCompat="@drawable/high_color_rectangle2" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="189dp"
+        android:text="사용 의료품"
+        android:textColor="@color/primary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="23dp"
+        android:layout_height="26dp"
+        android:layout_alignTop="@+id/textView52"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        app:srcCompat="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_marginStart="-35dp"
+        android:layout_marginTop="-16dp"
+        app:srcCompat="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_marginStart="-35dp"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_marginStart="-35dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/add_used"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="183dp"
+        app:srcCompat="@drawable/shape" />
+
 </RelativeLayout>
