@@ -1,10 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".P_Purchase">
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/bg"
+    >
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView45"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="387dp"
+        android:layout_marginEnd="-2dp"
+        android:text="사용 수량"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/listicon" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView45"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="사용 의료품 입력"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="245dp"
+        android:layout_height="119dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/high_color_rectangle" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView45"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="14dp"
+        android:text="사진"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView45"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="243dp"
+        android:layout_marginEnd="6dp"
+        android:text="제품명"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView45"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="314dp"
+        android:layout_marginEnd="15dp"
+        android:text="구분"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/textView55"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="-14dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/textView55"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="-86dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_alignBottom="@+id/textView55"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="-158dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="252dp"
+        android:layout_height="67dp"
+        android:layout_alignEnd="@+id/imageView50"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:src="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="124dp"
+        android:layout_marginRight="124dp"
+        android:layout_marginBottom="63dp"
+        android:text="등록하기"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

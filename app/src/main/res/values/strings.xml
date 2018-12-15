@@ -15,4 +15,7 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
     <string name="title_activity_p_camera">P_camera</string>
+    <string name="title_activity_p_sick__db">P_sick_DB</string>
+    <string name="title_activity_p__purchase">P_Purchase</string>
+    <string name="title_activity_p_my_request_list">P_my_request_list</string>
 </resources>

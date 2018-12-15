@@ -60,7 +60,16 @@
             android:name=".P_camera"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_p_camera"
-            android:theme="@style/FullscreenTheme"></activity>
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".P_sick_DB"
+            android:label="@string/title_activity_p_sick__db" />
+        <activity
+            android:name=".P_Purchase"
+            android:label="@string/title_activity_p__purchase" />
+        <activity
+            android:name=".P_my_request_list"
+            android:label="@string/title_activity_p_my_request_list"></activity>
     </application>
 
 </manifest>

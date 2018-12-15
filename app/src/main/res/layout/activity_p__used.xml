@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
@@ -19,7 +19,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
         android:layout_marginTop="23dp"
-        app:srcCompat="@drawable/listicon" />
+        android:src="@drawable/listicon" />
 
     <TextView
         android:id="@+id/textView31"
@@ -75,14 +75,14 @@
         android:textStyle="bold"/>
 
     <ImageView
-        android:id="@+id/imageView37"
+        android:id="@+id/searchSick"
         android:layout_width="217dp"
         android:layout_height="59dp"
         android:layout_alignStart="@+id/textView31"
         android:layout_alignParentTop="true"
         android:layout_marginStart="-48dp"
         android:layout_marginTop="85dp"
-        app:srcCompat="@drawable/button" />
+        android:src="@drawable/button" />
 
     <TextView
         android:id="@+id/textView50"
@@ -107,7 +107,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
         android:layout_marginBottom="175dp"
-        app:srcCompat="@drawable/high_color_rectangle2" />
+        android:src="@drawable/high_color_rectangle2" />
 
     <TextView
         android:id="@+id/textView52"
@@ -132,7 +132,7 @@
         android:layout_marginTop="-1dp"
         android:layout_marginEnd="26dp"
         android:layout_marginRight="26dp"
-        app:srcCompat="@drawable/plus" />
+        android:src="@drawable/plus" />
 
     <ImageView
         android:id="@+id/imageView46"
@@ -142,7 +142,7 @@
         android:layout_alignTop="@+id/textView33"
         android:layout_marginStart="-35dp"
         android:layout_marginTop="-16dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
+        android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/imageView47"
@@ -152,7 +152,7 @@
         android:layout_alignTop="@+id/textView33"
         android:layout_marginStart="-35dp"
         android:layout_marginTop="42dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
+        android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/imageView48"
@@ -162,7 +162,7 @@
         android:layout_alignTop="@+id/textView33"
         android:layout_marginStart="-35dp"
         android:layout_marginTop="100dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
+        android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/add_used"
@@ -174,6 +174,6 @@
         android:layout_marginEnd="17dp"
         android:layout_marginRight="17dp"
         android:layout_marginBottom="183dp"
-        app:srcCompat="@drawable/shape" />
+        android:src="@drawable/shape" />
 
 </RelativeLayout>

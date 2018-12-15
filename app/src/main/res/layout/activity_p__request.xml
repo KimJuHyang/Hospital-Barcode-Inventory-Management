@@ -1,10 +1,200 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:background="@color/bg"
     >
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="285dp"
+        android:text="구분"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="359dp"
+        android:text="수량"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="426dp"
+        android:text="특이사항"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="203dp"
+        android:text="제품명"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="118dp"
+        android:text="사진"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:text="재고 불출 요청"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/listicon" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-17dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="255dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="34dp"
+        android:text="요청하기"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="-34dp"
+        android:src="@drawable/high_color_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="255dp"
+        android:layout_height="74dp"
+        android:layout_alignTop="@+id/textView60"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+
 </RelativeLayout>

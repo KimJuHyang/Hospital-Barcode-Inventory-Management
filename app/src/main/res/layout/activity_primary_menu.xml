@@ -10,7 +10,7 @@
     >
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/mylist"
         android:layout_width="270dp"
         android:layout_height="65dp"
         android:layout_alignParentEnd="true"
@@ -55,17 +55,17 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="229dp"
-        android:layout_marginEnd="143dp"
-        android:layout_marginRight="143dp"
-        android:text="이름"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:text="김이름"
         android:textColor="@color/primary"
         android:textSize="30dp"
         android:textStyle="bold" />
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/used"
         android:layout_width="270dp"
         android:layout_height="65dp"
         android:layout_alignParentEnd="true"
@@ -77,7 +77,7 @@
         app:srcCompat="@drawable/button" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/request"
         android:layout_width="270dp"
         android:layout_height="65dp"
         android:layout_alignParentEnd="true"
@@ -94,8 +94,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/nameText"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-39dp"
-        android:layout_marginBottom="127dp"
+        android:layout_marginStart="-14dp"
+        android:layout_marginBottom="126dp"
         android:text="재고 불출 요청"
         android:textColor="@color/bg"
         android:textSize="20dp"
@@ -107,8 +107,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView10"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-2dp"
-        android:layout_marginBottom="209dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="210dp"
         android:text="물품 사용 등록"
         android:textColor="@color/bg"
         android:textSize="20dp"
@@ -128,12 +128,12 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="152dp"
-        android:layout_height="216dp"
+        android:layout_width="143dp"
+        android:layout_height="203dp"
         android:layout_alignStart="@+id/textView11"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="50dp"
         app:srcCompat="@drawable/boy" />
 
     <TextView
@@ -142,9 +142,9 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView11"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="274dp"
-        android:layout_marginEnd="40dp"
-        android:text="TextView"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="56dp"
+        android:text="000"
         android:textColor="@color/red"
         android:textSize="20dp" />
 
