@@ -16,26 +16,24 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="27dp"
         android:text="서울스페셜병원 재고관리시스템"
-        android:textStyle="bold"
         android:textColor="@color/primary"
-        android:textSize="20dp" />
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/nameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="252dp"
-        android:layout_marginEnd="146dp"
-        android:layout_marginRight="146dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:text="김주향"
         android:textColor="@color/primary"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:textStyle="bold" />
 
     <TextView
@@ -45,9 +43,9 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="307dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginRight="153dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
         android:text="재고관리자"
 
         android:textColor="@color/red"
@@ -60,9 +58,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="217dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="219dp"
         app:srcCompat="@drawable/button" />
 
     <ImageView
@@ -72,9 +70,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="127dp"
         app:srcCompat="@drawable/button" />
 
     <ImageView
@@ -84,9 +82,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
-        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="42dp"
         app:srcCompat="@drawable/button" />
 
     <TextView
@@ -129,12 +127,12 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="205dp"
-        android:layout_height="142dp"
+        android:layout_width="199dp"
+        android:layout_height="135dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="99dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="69dp"
         app:srcCompat="@drawable/girl" />
 
     <ImageView

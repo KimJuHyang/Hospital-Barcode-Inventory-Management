@@ -29,27 +29,22 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_Purchase"
-            android:label="@string/title_activity_m__purchase"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_InventoryStatus"
-            android:label="@string/title_activity_m__inventory_status"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_StockOut"
-            android:label="@string/title_activity_m__stock_out"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_Used"
-            android:label="@string/title_activity_p__used"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_Request"
-            android:label="@string/title_activity_p__request"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_Purchase2"
-            android:label="@string/title_activity_m__purchase2"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
     </application>
 
 </manifest>

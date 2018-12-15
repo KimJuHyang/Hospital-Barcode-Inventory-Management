@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
@@ -10,6 +9,30 @@
     >
 
 
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
@@ -17,27 +40,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="387dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="428dp"
         android:text="수  량"
         android:textColor="@color/primary"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView12"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="21dp"
-        android:layout_marginLeft="21dp"
-        android:layout_marginTop="257dp"
-        android:text="사용기한"
-        android:textColor="@color/primary"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:textStyle="bold" />
 
     <TextView
@@ -47,12 +55,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="214dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="275dp"
         android:text="제품명"
         android:textColor="@color/primary"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:textStyle="bold" />
 
     <TextView
@@ -62,85 +70,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="351dp"
         android:text="구  분"
         android:textColor="@color/primary"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="282dp"
-        android:layout_height="66dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginLeft="111dp"
-        android:layout_marginTop="450dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="281dp"
-        android:layout_height="66dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginLeft="111dp"
-        android:layout_marginTop="364dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="282dp"
-        android:layout_height="66dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="110dp"
-        android:layout_marginLeft="110dp"
-        android:layout_marginTop="280dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="282dp"
-        android:layout_height="66dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginLeft="111dp"
-        android:layout_marginTop="112dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="282dp"
-        android:layout_height="66dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginLeft="111dp"
-        android:layout_marginTop="194dp"
-        app:srcCompat="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/next"
-        android:layout_width="324dp"
-        android:layout_height="73dp"
-        android:layout_below="@+id/imageView5"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginLeft="45dp"
-        android:layout_marginTop="302dp"
-        app:srcCompat="@drawable/button" />
 
 
     <TextView
@@ -150,46 +86,123 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="33dp"
-        android:layout_marginLeft="33dp"
-        android:layout_marginTop="133dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="203dp"
         android:text="바코드"
         android:textColor="@color/primary"
-        android:textSize="20dp"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="118dp"
+        android:text="사진"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="37dp"
-        android:text="NEXT"
-        android:textColor="@color/bg"
-        android:textSize="30dp" />
+        android:layout_marginTop="26dp"
+        android:text="매입 관리"
+        android:textColor="@color/primary"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="51dp"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/listicon" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-22dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="272dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="255dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginBottom="17dp"
+        android:src="@drawable/button" />
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
         android:layout_alignEnd="@+id/textView18"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="15dp"
-        android:text="매입 관리"
-        android:textColor="@color/primary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-33dp"
+        android:layout_marginBottom="21dp"
+        android:text="NEXT"
+        android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />
 
     <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="43dp"
-        android:layout_height="36dp"
-        android:layout_alignStart="@+id/textView8"
-        android:layout_alignTop="@+id/textView19"
-        android:layout_marginStart="-14dp"
-        android:layout_marginTop="-3dp"
-        app:srcCompat="@drawable/listicon" />
+        android:id="@+id/imageView27"
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="-34dp"
+        android:src="@drawable/high_color_rectangle" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="50dp"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/textView19"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:src="@drawable/plus" />
 
 
 </RelativeLayout>

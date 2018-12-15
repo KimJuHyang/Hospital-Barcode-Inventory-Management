@@ -6,4 +6,5 @@
     <string name="title_activity_p__used">P_Used</string>
     <string name="title_activity_p__request">P_Request</string>
     <string name="title_activity_m__purchase2">M_Purchase2</string>
+    <string name="title_activity_purchasetest">Purchasetest</string>
 </resources>
