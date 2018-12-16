@@ -30,7 +30,6 @@ public class CustomScannerActivity extends Activity implements DecoratedBarcodeV
 
         backPressCloseHandler = new BackPressCloseHandler(this);
 
-        setting_btn = (ImageButton)findViewById(R.id.setting_btn);
         switchFlashlightButton = (ImageButton)findViewById(R.id.switch_flashlight);
 
         if (!hasFlash()) {
@@ -87,13 +86,13 @@ public class CustomScannerActivity extends Activity implements DecoratedBarcodeV
 
     @Override
     public void onTorchOn() {
-        switchFlashlightButton.setImageResource(R.drawable.call);
+        switchFlashlightButton.setImageResource(R.drawable.flashon);
         switchFlashlightButtonCheck = false;
     }
 
     @Override
     public void onTorchOff() {
-        switchFlashlightButton.setImageResource(R.drawable.email);
+        switchFlashlightButton.setImageResource(R.drawable.flashoff);
         switchFlashlightButtonCheck = true;
     }
 }

@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 
 public class M_Purchase extends Activity {
@@ -25,6 +26,13 @@ public class M_Purchase extends Activity {
                 startActivity(change);
             }
         });
+
+        Intent intent = getIntent();//인텐트  받아오고
+        String msg = intent.getStringExtra("data");
+
+//        final TextView bacode = (TextView)findViewById(R.id.bacode);
+//        bacode.setText(msg); // 이름 표시
+
     }
 
 

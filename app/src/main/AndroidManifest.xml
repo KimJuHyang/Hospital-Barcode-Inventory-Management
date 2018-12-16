@@ -54,20 +54,26 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_stock_request"
-            android:label="@string/title_activity_m_stock_request" />
+            android:label="@string/title_activity_m_stock_request"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".M_stock_MAP"
-            android:label="@string/title_activity_m_stock__map" />
+            android:label="@string/title_activity_m_stock__map"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".P_sick_DB"
-            android:label="@string/title_activity_p_sick__db" />
+            android:label="@string/title_activity_p_sick__db"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".P_Purchase"
-            android:label="@string/title_activity_p__purchase" />
+            android:label="@string/title_activity_p__purchase"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".P_my_request_list"
-            android:label="@string/title_activity_p_my_request_list" />
-        <activity android:name=".BacodeScan"></activity>
+            android:label="@string/title_activity_p_my_request_list"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".BacodeScan"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
 
         <activity
             android:name=".AnyOrientationCaptureActivity"
@@ -75,7 +81,8 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden"></activity>
-        <activity android:name=".CustomScannerActivity"></activity>
+        <activity android:name=".CustomScannerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>
