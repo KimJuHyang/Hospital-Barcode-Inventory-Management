@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.juhyang.hospital">
 
+    <!-- CAMERA 사용권한 획득 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.hardware.camera.autofocus" />
+
+    <!-- 카메라 권한 사용 -->
+    <uses-feature android:name="android.hardware.camera" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -52,16 +59,6 @@
             android:name=".M_stock_MAP"
             android:label="@string/title_activity_m_stock__map" />
         <activity
-            android:name=".M_camera"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_m_camera"
-            android:theme="@style/FullscreenTheme" />
-        <activity
-            android:name=".P_camera"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_p_camera"
-            android:theme="@style/FullscreenTheme" />
-        <activity
             android:name=".P_sick_DB"
             android:label="@string/title_activity_p_sick__db" />
         <activity
@@ -69,7 +66,16 @@
             android:label="@string/title_activity_p__purchase" />
         <activity
             android:name=".P_my_request_list"
-            android:label="@string/title_activity_p_my_request_list"></activity>
+            android:label="@string/title_activity_p_my_request_list" />
+        <activity android:name=".BacodeScan"></activity>
+
+        <activity
+            android:name=".AnyOrientationCaptureActivity"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".CustomScannerActivity"></activity>
     </application>
 
 </manifest>

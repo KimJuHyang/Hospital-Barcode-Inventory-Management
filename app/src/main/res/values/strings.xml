@@ -18,4 +18,5 @@
     <string name="title_activity_p_sick__db">P_sick_DB</string>
     <string name="title_activity_p__purchase">P_Purchase</string>
     <string name="title_activity_p_my_request_list">P_my_request_list</string>
+    <string name="title_activity_camera_test">cameraTest</string>
 </resources>
