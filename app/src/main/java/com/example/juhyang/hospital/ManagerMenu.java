@@ -29,7 +29,7 @@ public class ManagerMenu extends AppCompatActivity {
 
                 Intent change = new Intent(
                         getApplicationContext(), // 현재 화면의 제어권자
-                        M_Purchase.class); // 다음 넘어갈 클래스 지정
+                        BacodeScan.class); // 다음 넘어갈 클래스 지정
                         startActivity(change);
             }
         });

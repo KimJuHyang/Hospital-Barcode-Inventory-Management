@@ -2,10 +2,14 @@ package com.example.juhyang.hospital;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.wifi.ScanResult;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
@@ -16,6 +20,18 @@ public class BacodeScan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//
+//        Button b = (Button) findViewById(R.id.readerfinish);
+//        b.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//
+//                Intent change = new Intent(
+//                        getApplicationContext(), // 현재 화면의 제어권자
+//                        M_Purchase.class);
+//                startActivity(change);
+//            }
+//        });
     }
 
     protected void onResume(){
@@ -26,6 +42,8 @@ public class BacodeScan extends AppCompatActivity {
         integrator.initiateScan();
     }
 
+    String re = "don care";
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, final Intent intent) {
 
@@ -33,28 +51,36 @@ public class BacodeScan extends AppCompatActivity {
         Log.d("onActivityResult", "onActivityResult: .");
         if (resultCode == Activity.RESULT_OK) {
             IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
-            String re = scanResult.getContents();
+            re = scanResult.getContents();
             final String message = re;
             Log.d("onActivityResult", "onActivityResult: ." + re);
-            Toast.makeText(this, re, Toast.LENGTH_LONG).show();
-
-
-            new Handler().postDelayed(new Runnable()
-            {
-                @Override
-                public void run()
-                {
-                    //여기에 딜레이 후 시작할 작업들을 입력
-                    Intent change = new Intent(
-                            getApplicationContext(), // 현재 화면의 제어권자
-                            M_Purchase.class); // 다음 넘어갈 클래스 지정
-                            intent.putExtra("data",message);
-                    startActivity(change);
-
-                }
-            }, 500);// 0.5초 정도 딜레이를 준 후 시작
+            intent.putExtra("code", re);
+            //Toast.makeText(this, re, Toast.LENGTH_LONG).show();
 
 
         }
+
+        new Handler().postDelayed(new Runnable()
+        {
+            @Override
+            public void run()
+            {
+                //여기에 딜레이 후 시작할 작업들을 입력
+                Intent go = new Intent(
+                        getApplicationContext(), // 현재 화면의 제어권자
+                        M_Purchase.class); // 다음 넘어갈 클래스 지정
+                go.putExtra("code", re);
+                startActivity(go); // 다음 화면으로 넘어간다
+            }
+        }, 1000);// 0.5초 정도 딜레이를 준 후 시작
+
+
     }
+
+
+
+
+
+
+
 }

@@ -74,7 +74,8 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity android:name=".BacodeScan"
             android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-
+        <activity android:name=".P_BacodeScan"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
         <activity
             android:name=".AnyOrientationCaptureActivity"
             android:screenOrientation="fullSensor"

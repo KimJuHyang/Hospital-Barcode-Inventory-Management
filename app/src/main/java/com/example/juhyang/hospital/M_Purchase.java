@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class M_Purchase extends Activity {
@@ -22,16 +24,16 @@ public class M_Purchase extends Activity {
 
                 Intent change = new Intent(
                         getApplicationContext(), // 현재 화면의 제어권자
-                        M_Purchase2.class); // 다음 넘어갈 클래스 지정
+                        M_Purchase2.class);
                 startActivity(change);
             }
         });
 
-        Intent intent = getIntent();//인텐트  받아오고
-        String msg = intent.getStringExtra("data");
 
-//        final TextView bacode = (TextView)findViewById(R.id.bacode);
-//        bacode.setText(msg); // 이름 표시
+        Intent intent = getIntent();//인텐트  받아오고
+        String msg = intent.getStringExtra("code");
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+
 
     }
 

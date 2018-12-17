@@ -12,12 +12,13 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        app:zxing_scanner_layout="@layout/custom_barcode_scanner"></com.journeyapps.barcodescanner.DecoratedBarcodeView>
+        app:zxing_scanner_layout="@layout/custom_barcode_scanner"
+        android:layout_alignParentLeft="true"></com.journeyapps.barcodescanner.DecoratedBarcodeView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/primary">
+        android:background="@color/soft_primary">
     </LinearLayout>
 
     <ImageButton
@@ -33,16 +34,20 @@
         android:adjustViewBounds="true"
         android:scaleType="fitCenter"
         android:src="@drawable/flashoff"
-        tools:ignore="OnClick" />
+         />
 
     <LinearLayout
-        android:gravity="center_horizontal"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@color/primary"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/soft_primary"
+        android:gravity="center_horizontal">
+
 
         <TextView
             android:id="@+id/zxing_status_view"
@@ -50,6 +55,39 @@
             android:layout_height="wrap_content"
             android:background="@color/zxing_transparent"
             android:text="@string/zxing_msg_default_status"
-            android:textColor="@color/zxing_status_text" />
+            android:textColor="@color/primary"
+            android:textStyle="bold" />
+
+
+
+
     </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="108dp"-->
+        <!--android:layout_marginBottom="89dp">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView58"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--app:srcCompat="@drawable/button" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/readerfinish"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/primary"-->
+            <!--android:text="인식 완료"-->
+            <!--android:textSize="20dp"-->
+            <!--android:textColor="@color/bg"-->
+            <!--android:textStyle="bold" />-->
+    <!--</LinearLayout>-->
+
 </RelativeLayout>
