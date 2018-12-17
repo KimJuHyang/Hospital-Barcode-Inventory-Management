@@ -31,9 +31,11 @@ public class M_Purchase extends Activity {
 
 
         Intent intent = getIntent();//인텐트  받아오고
-        String msg = intent.getStringExtra("code");
-        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+        String code = intent.getStringExtra("code");
+       // Toast.makeText(this, code, Toast.LENGTH_LONG).show();
 
+        final TextView codeset = (TextView)findViewById(R.id.getbacode);
+        codeset.setText(code); //어느 부서인지 표시해주기.
 
     }
 

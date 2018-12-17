@@ -55,7 +55,6 @@ public class BacodeScan extends AppCompatActivity {
             final String message = re;
             Log.d("onActivityResult", "onActivityResult: ." + re);
             intent.putExtra("code", re);
-            //Toast.makeText(this, re, Toast.LENGTH_LONG).show();
 
 
         }
@@ -72,7 +71,7 @@ public class BacodeScan extends AppCompatActivity {
                 go.putExtra("code", re);
                 startActivity(go); // 다음 화면으로 넘어간다
             }
-        }, 1000);// 0.5초 정도 딜레이를 준 후 시작
+        }, 500);// 0.5초 정도 딜레이를 준 후 시작
 
 
     }
