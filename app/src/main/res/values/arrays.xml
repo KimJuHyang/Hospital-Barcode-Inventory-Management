@@ -13,4 +13,13 @@
         <item>사용량 많은순</item>
         <item>사용기한 순</item>
     </string-array>
+
+    <string-array name="attribute">
+        <item>먹는약</item>
+        <item>일회용 의료기기</item>
+        <item>건강보조제</item>
+        <item>일반용품</item>
+
+
+    </string-array>
 </resources>

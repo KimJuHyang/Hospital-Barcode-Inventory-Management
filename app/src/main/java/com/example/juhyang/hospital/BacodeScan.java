@@ -20,18 +20,6 @@ public class BacodeScan extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//
-//        Button b = (Button) findViewById(R.id.readerfinish);
-//        b.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//
-//                Intent change = new Intent(
-//                        getApplicationContext(), // 현재 화면의 제어권자
-//                        M_Purchase.class);
-//                startActivity(change);
-//            }
-//        });
     }
 
     protected void onResume(){

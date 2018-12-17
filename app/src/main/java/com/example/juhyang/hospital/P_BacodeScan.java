@@ -26,33 +26,35 @@ public class P_BacodeScan extends AppCompatActivity {
         integrator.initiateScan();
     }
 
+    String re = "don care";
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+
         Log.d("onActivityResult", "onActivityResult: .");
         if (resultCode == Activity.RESULT_OK) {
             IntentResult scanResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
-            String re = scanResult.getContents();
-            String message = re;
+            re = scanResult.getContents();
+            final String message = re;
             Log.d("onActivityResult", "onActivityResult: ." + re);
-            Toast.makeText(this, re, Toast.LENGTH_LONG).show();
-
-
-
-            new Handler().postDelayed(new Runnable()
-            {
-                @Override
-                public void run()
-                {
-                    //여기에 딜레이 후 시작할 작업들을 입력
-                    Intent change = new Intent(
-                            getApplicationContext(), // 현재 화면의 제어권자
-                            P_Purchase.class); // 다음 넘어갈 클래스 지정
-                    startActivity(change);
-                    
-                }
-            }, 500);// 0.5초 정도 딜레이를 준 후 시작
+            intent.putExtra("code", re);
 
 
         }
+
+        new Handler().postDelayed(new Runnable()
+        {
+            @Override
+            public void run()
+            {
+                //여기에 딜레이 후 시작할 작업들을 입력
+                Intent go = new Intent(
+                        getApplicationContext(), // 현재 화면의 제어권자
+                        P_Purchase.class); // 다음 넘어갈 클래스 지정
+                go.putExtra("code", re);
+                startActivity(go); // 다음 화면으로 넘어간다
+            }
+        }, 500);// 0.5초 정도 딜레이를 준 후 시작
+
     }
 }
