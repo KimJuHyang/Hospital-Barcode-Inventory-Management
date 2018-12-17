@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/primary"
+    >
+
+
+    <ImageView
+        android:id="@+id/newadd"
+        android:layout_width="252dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        app:srcCompat="@drawable/high_color_button" />
+
+    <ImageView
+        android:id="@+id/alreadyadd"
+        android:layout_width="252dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="332dp"
+        app:srcCompat="@drawable/high_color_button" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:text="새 물품 등록"
+        android:textStyle="bold"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="361dp"
+        android:text="기존 물품 등록"
+        android:textSize="20dp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>

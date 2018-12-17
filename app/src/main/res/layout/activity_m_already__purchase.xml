@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:background="@color/bg"
-   >
+    >
 
 
     <TextView
@@ -31,9 +32,9 @@
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-20dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginTop="-19dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
@@ -137,21 +138,6 @@
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:layout_marginTop="118dp"
-        android:text="사진"
-        android:textColor="@color/primary"
-        android:textSize="15dp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -204,77 +190,74 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="92dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView18"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="22dp"
-        android:text="NEXT"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="32dp"
+        android:text="등록"
         android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />
 
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="261dp"
-        android:layout_height="112dp"
-        android:layout_alignBottom="@+id/textView20"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="-34dp"
-        android:src="@drawable/high_color_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView28"
-        android:layout_width="50dp"
-        android:layout_height="34dp"
-        android:layout_alignStart="@+id/textView19"
-        android:layout_alignBottom="@+id/textView20"
-        android:layout_marginStart="43dp"
-        android:layout_marginBottom="5dp"
-        android:src="@drawable/plus" />
 
     <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView12"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="54dp"
-        android:layout_marginRight="54dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        android:textColor="@color/primary"/>
+        android:layout_alignEnd="@+id/getbacode"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="0dp"
+        android:text="제품명" />
 
-
-    <Spinner
+    <TextView
         android:id="@+id/attribute"
-        android:layout_width="124dp"
-        android:layout_height="40dp"
-        android:layout_alignTop="@+id/textView15"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="110dp"
-        android:layout_marginTop="-8dp"
-        android:entries="@array/attribute"
-        android:popupBackground="@color/bg"
-        android:theme="@style/Spinner" />
-
-    <EditText
-        android:id="@+id/cnt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/imageView24"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="27dp"
+        android:text="구분" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="274dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/name"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="0dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textColor="@color/primary"/>
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="-46dp"
+        android:text="물품 정보 채워넣기"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>

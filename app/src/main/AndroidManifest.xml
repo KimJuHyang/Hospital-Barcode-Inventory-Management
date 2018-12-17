@@ -55,35 +55,44 @@
         <activity
             android:name=".M_stock_request"
             android:label="@string/title_activity_m_stock_request"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".M_stock_MAP"
             android:label="@string/title_activity_m_stock__map"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_sick_DB"
             android:label="@string/title_activity_p_sick__db"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_Purchase"
             android:label="@string/title_activity_p__purchase"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_my_request_list"
             android:label="@string/title_activity_p_my_request_list"
-            android:theme="@style/Theme.AppCompat.NoActionBar"/>
-        <activity android:name=".BacodeScan"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
-        <activity android:name=".P_BacodeScan"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".BacodeScan"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".P_BacodeScan"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".AnyOrientationCaptureActivity"
             android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
-            android:windowSoftInputMode="stateAlwaysHidden"></activity>
-        <activity android:name=".CustomScannerActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CustomScannerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".requestDB"
+            android:label="@string/title_activity_request_db"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".M_select" />
+        <activity android:name=".M_already_Purchase"></activity>
     </application>
 
 </manifest>

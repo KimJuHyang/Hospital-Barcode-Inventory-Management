@@ -19,4 +19,6 @@
     <string name="title_activity_p__purchase">P_Purchase</string>
     <string name="title_activity_p_my_request_list">P_my_request_list</string>
     <string name="title_activity_camera_test">cameraTest</string>
+    <string name="title_activity_request_db">requestDB</string>
+    <string name="title_activity_inventory_db_">InventoryDB_Activity</string>
 </resources>

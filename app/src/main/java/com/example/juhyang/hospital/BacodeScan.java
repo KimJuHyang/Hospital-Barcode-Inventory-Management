@@ -30,6 +30,7 @@ public class BacodeScan extends AppCompatActivity {
         integrator.initiateScan();
     }
 
+
     String re = "don care";
 
     @Override
@@ -47,19 +48,42 @@ public class BacodeScan extends AppCompatActivity {
 
         }
 
-        new Handler().postDelayed(new Runnable()
-        {
-            @Override
-            public void run()
+        Intent type = getIntent();//인텐트  받아오고
+        String code = intent.getStringExtra("istype");
+
+        if (code.equals("new")) {
+            new Handler().postDelayed(new Runnable()
             {
-                //여기에 딜레이 후 시작할 작업들을 입력
-                Intent go = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        M_Purchase.class); // 다음 넘어갈 클래스 지정
-                go.putExtra("code", re);
-                startActivity(go); // 다음 화면으로 넘어간다
-            }
-        }, 500);// 0.5초 정도 딜레이를 준 후 시작
+                @Override
+                public void run()
+                {
+                    //여기에 딜레이 후 시작할 작업들을 입력
+                    Intent go = new Intent(
+                            getApplicationContext(), // 현재 화면의 제어권자
+                            M_Purchase.class); // 다음 넘어갈 클래스 지정
+                    go.putExtra("code", re);
+                    startActivity(go); // 다음 화면으로 넘어간다
+                }
+            }, 500);// 0.5초 정도 딜레이를 준 후 시작
+        } else {
+
+            new Handler().postDelayed(new Runnable()
+            {
+                @Override
+                public void run()
+                {
+                    //여기에 딜레이 후 시작할 작업들을 입력
+                    Intent go = new Intent(
+                            getApplicationContext(), // 현재 화면의 제어권자
+                            M_already_Purchase.class); // 다음 넘어갈 클래스 지정
+                    go.putExtra("code", re);
+                    startActivity(go); // 다음 화면으로 넘어간다
+                }
+            }, 500);// 0.5초 정도 딜레이를 준 후 시작
+
+        }
+
+
 
 
     }
