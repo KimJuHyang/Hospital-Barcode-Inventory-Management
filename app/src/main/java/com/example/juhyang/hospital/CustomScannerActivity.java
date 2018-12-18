@@ -17,7 +17,7 @@ public class CustomScannerActivity extends Activity implements DecoratedBarcodeV
 
     private CaptureManager capture;
     private DecoratedBarcodeView barcodeScannerView;
-    private BackPressCloseHandler backPressCloseHandler;
+    //private BackPressCloseHandler backPressCloseHandler;
     private ImageButton setting_btn,switchFlashlightButton;
     private Boolean switchFlashlightButtonCheck;
 
@@ -28,7 +28,7 @@ public class CustomScannerActivity extends Activity implements DecoratedBarcodeV
 
         switchFlashlightButtonCheck = true;
 
-        backPressCloseHandler = new BackPressCloseHandler(this);
+        //backPressCloseHandler = new BackPressCloseHandler(this);
 
         switchFlashlightButton = (ImageButton)findViewById(R.id.switch_flashlight);
 
@@ -67,9 +67,9 @@ public class CustomScannerActivity extends Activity implements DecoratedBarcodeV
         capture.onSaveInstanceState(outState);
     }
 
-    public void onBackPressed() {
-        backPressCloseHandler.onBackPressed();
-    }
+//    public void onBackPressed() {
+//        backPressCloseHandler.onBackPressed();
+//    }
 
     public void switchFlashlight(View view) {
         if (switchFlashlightButtonCheck) {

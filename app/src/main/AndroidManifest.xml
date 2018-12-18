@@ -54,10 +54,6 @@
             android:label="@string/title_activity_m_stock_request"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".M_stock_MAP"
-            android:label="@string/title_activity_m_stock__map"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
             android:name=".P_sick_DB"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity

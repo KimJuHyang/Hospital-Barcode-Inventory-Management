@@ -34,7 +34,7 @@ class dbHelper extends SQLiteOpenHelper{
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE contact " + "(id INTEGER PRIMARY KEY,code TEXT, name TEXT, attr TEXT, cnt TEXT, made TEXT, maneger TEXT, phone TEXT, " +
                 "usedate TEXT)");
-        db.execSQL("INSERT INTO contact VALUES(null, '1','테스트','테스트','100',null,null,null,null);");
+        db.execSQL("INSERT INTO contact VALUES(null, '1','테스트','속성','수량','제조사',null,null,null);");
 
     }
     @Override
