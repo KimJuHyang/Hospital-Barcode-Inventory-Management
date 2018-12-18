@@ -58,9 +58,9 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="36dp"
-        android:layout_marginRight="36dp"
-        android:layout_marginBottom="219dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="180dp"
         app:srcCompat="@drawable/button" />
 
     <ImageView
@@ -70,34 +70,22 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="35dp"
-        android:layout_marginRight="35dp"
-        android:layout_marginBottom="127dp"
-        app:srcCompat="@drawable/button" />
-
-    <ImageView
-        android:id="@+id/stock_out"
-        android:layout_width="293dp"
-        android:layout_height="70dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="34dp"
-        android:layout_marginRight="34dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="88dp"
         app:srcCompat="@drawable/button" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameText"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="237dp"
+        android:layout_marginBottom="198dp"
         android:text="매입 관리"
         android:textColor="@color/bg"
-        android:textStyle="bold"
-        android:textSize="20dp"/>
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView13"
@@ -105,22 +93,9 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/textView10"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="148dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="109dp"
         android:text="재고 현황"
-        android:textColor="@color/bg"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView10"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="63dp"
-        android:text="불출 관리"
         android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />

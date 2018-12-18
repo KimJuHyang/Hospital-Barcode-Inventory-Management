@@ -31,7 +31,7 @@ public class P_Used extends Activity {
 
                 Intent change = new Intent(
                         getApplicationContext(), // 현재 화면의 제어권자
-                        P_Purchase.class); // 다음 넘어갈 클래스 지정
+                        BacodeScan.class); // 다음 넘어갈 클래스 지정
                         change.putExtra("istype","nomal");
                 startActivity(change);
             }

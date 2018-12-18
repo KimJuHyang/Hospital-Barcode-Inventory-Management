@@ -47,18 +47,6 @@ public class ManagerMenu extends AppCompatActivity {
             }
         });
 
-        //클릭시 다음화면 넘어가기
-        ImageView c = (ImageView) findViewById(R.id.stock_out);
-        c.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent change3 = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        M_StockOut.class); // 다음 넘어갈 클래스 지정
-                startActivity(change3);
-            }
-        });
 
 
     }

@@ -9,18 +9,6 @@
     android:background="@color/bg"
     >
 
-    <ImageView
-        android:id="@+id/mylist"
-        android:layout_width="270dp"
-        android:layout_height="65dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
-        android:layout_marginBottom="25dp"
-        app:srcCompat="@drawable/button" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -71,48 +59,23 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="192dp"
-        app:srcCompat="@drawable/button" />
-
-    <ImageView
-        android:id="@+id/request"
-        android:layout_width="270dp"
-        android:layout_height="65dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginBottom="149dp"
         app:srcCompat="@drawable/button" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/nameText"
+        android:layout_alignStart="@+id/textView24"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="-14dp"
-        android:layout_marginBottom="126dp"
-        android:text="재고 불출 요청"
-        android:textColor="@color/bg"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView10"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="210dp"
+        android:layout_marginBottom="169dp"
         android:text="물품 사용 등록"
         android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />
+
 
     <ImageView
         android:id="@+id/imageView8"
@@ -147,5 +110,17 @@
         android:text="000"
         android:textColor="@color/red"
         android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="212dp"
+        android:text="물품 사용 등록"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

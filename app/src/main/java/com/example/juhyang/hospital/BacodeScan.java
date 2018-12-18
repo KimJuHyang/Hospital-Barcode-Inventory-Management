@@ -82,7 +82,6 @@ public class BacodeScan extends AppCompatActivity {
             }, 500);// 0.5초 정도 딜레이를 준 후 시작
 
         } else {
-
             new Handler().postDelayed(new Runnable()
             {
                 @Override

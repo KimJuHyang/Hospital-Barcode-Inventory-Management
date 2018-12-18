@@ -39,30 +39,5 @@ public class PrimaryMenu extends AppCompatActivity {
             }
         });
 
-        //클릭시 다음화면 넘어가기
-        ImageView b = (ImageView) findViewById(R.id.request);
-        b.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent change = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        P_Request.class); // 다음 넘어갈 클래스 지정
-                startActivity(change);
-            }
-        });
-
-        //클릭시 다음화면 넘어가기
-        ImageView c = (ImageView) findViewById(R.id.mylist);
-        c.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent change = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                       P_my_request_list.class); // 다음 넘어갈 클래스 지정
-                startActivity(change);
-            }
-        });
     }
 }

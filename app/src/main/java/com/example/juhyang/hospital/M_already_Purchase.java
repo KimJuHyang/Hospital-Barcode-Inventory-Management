@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -55,6 +56,7 @@ public class M_already_Purchase extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     String code = edit_code.getText().toString();
+                    String cnt = edit_cnt.getText().toString();
                     Cursor cursor;
                     cursor = db.rawQuery("SELECT code, name, attr, cnt, usedate FROM contact where code='"+code+"';" , null);
 
@@ -63,16 +65,43 @@ public class M_already_Purchase extends AppCompatActivity {
                         edit_name.setText(name);
                         String attr = cursor.getString(2);
                         edit_attr.setText(attr);
-                        String cnt = cursor.getString(3);
-                        edit_cnt.setText(cnt);
                         String usedate  = cursor.getString(4);
                         edit_usedate.setText(usedate);
 
                     }
-
-                    Toast.makeText(M_already_Purchase.this, "검색완료!!!", Toast.LENGTH_SHORT).show();
                 }
             });
+
+
+
+        ImageView a = (ImageView) findViewById(R.id.add);
+        a.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String code = edit_code.getText().toString();
+                String cnt = edit_cnt.getText().toString();
+
+                db.execSQL("UPDATE contact SET cnt='" +cnt+ "' where code='" + code + "';");
+
+                Toast.makeText(M_already_Purchase.this, "새롭게 등록 완료!!!", Toast.LENGTH_SHORT).show();
+
+                new Handler().postDelayed(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        //여기에 딜레이 후 시작할 작업들을 입력
+                        Intent go = new Intent(
+                                getApplicationContext(), // 현재 화면의 제어권자
+                                login.class); // 다음 넘어갈 클래스 지정
+                        startActivity(go); // 다음 화면으로 넘어간다
+                    }
+                }, 500);// 0.5초 정도 딜레이를 준 후 시작
+            }
+        });
+
+
+
     }
 
 

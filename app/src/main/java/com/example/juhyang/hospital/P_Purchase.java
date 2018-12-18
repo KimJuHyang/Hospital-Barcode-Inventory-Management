@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 import android.os.Bundle;
 import android.app.Activity;
+import android.os.Handler;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -94,7 +95,19 @@ public class P_Purchase extends Activity {
                 String updatecnt = String.valueOf(newcnt);
                 db.execSQL("UPDATE contact SET cnt='" +updatecnt+ "' where code='" + code + "';");
 
-                Toast.makeText(P_Purchase.this, "수량변경완료! 재고상황을 확인하세요", Toast.LENGTH_SHORT).show();
+                Toast.makeText(P_Purchase.this, "수량이 차감되었습니다.", Toast.LENGTH_SHORT).show();
+                new Handler().postDelayed(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        //여기에 딜레이 후 시작할 작업들을 입력
+                        Intent go = new Intent(
+                                getApplicationContext(), // 현재 화면의 제어권자
+                                login.class); // 다음 넘어갈 클래스 지정
+                        startActivity(go); // 다음 화면으로 넘어간다
+                    }
+                }, 500);// 0.5초 정도 딜레이를 준 후 시작
             }
         });
 
