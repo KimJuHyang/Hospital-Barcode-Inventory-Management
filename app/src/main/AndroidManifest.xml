@@ -50,9 +50,6 @@
             android:name=".P_Request"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
-            android:name=".M_Purchase2"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
             android:name=".M_stock_request"
             android:label="@string/title_activity_m_stock_request"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
@@ -93,6 +90,7 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".M_select" />
         <activity android:name=".M_already_Purchase"></activity>
+        <activity android:name=".InventoryDB"></activity>
     </application>
 
 </manifest>

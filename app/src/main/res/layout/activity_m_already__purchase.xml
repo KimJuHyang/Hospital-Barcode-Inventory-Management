@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,16 +9,69 @@
     >
 
 
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="272dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:src="@drawable/shape_soft_rectangle" />
+
     <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="366dp"
+        android:text="사용기한"
+        android:textColor="@color/primary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/usedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignBottom="@+id/imageView23"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-104dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/cnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView24"
+        android:layout_alignEnd="@+id/name"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="-1dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
+
+    <EditText
         android:id="@+id/getbacode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="152dp"
-        android:layout_marginLeft="152dp"
-        android:layout_marginTop="201dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="146dp"
         android:text="bacodenumber"
         android:textColor="@color/primary"
         android:textSize="15dp"
@@ -27,12 +79,12 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="272dp"
-        android:layout_height="55dp"
+        android:layout_width="271dp"
+        android:layout_height="40dp"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="-19dp"
+        android:layout_marginTop="-13dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:src="@drawable/shape_soft_rectangle" />
@@ -40,25 +92,25 @@
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="272dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="272dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="207dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <TextView
@@ -68,9 +120,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="428dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="318dp"
         android:text="수  량"
         android:textColor="@color/primary"
         android:textSize="15dp"
@@ -83,9 +135,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="275dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="207dp"
         android:text="제품명"
         android:textColor="@color/primary"
         android:textSize="15dp"
@@ -98,9 +150,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="17dp"
-        android:layout_marginLeft="17dp"
-        android:layout_marginTop="351dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="264dp"
         android:text="구  분"
         android:textColor="@color/primary"
         android:textSize="15dp"
@@ -114,28 +166,14 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="203dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="157dp"
         android:text="바코드"
         android:textColor="@color/primary"
         android:textSize="15dp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView63"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginLeft="13dp"
-        android:layout_marginTop="203dp"
-        android:text="바코드"
-        android:textColor="@color/primary"
-        android:textSize="15dp"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView18"
@@ -167,26 +205,51 @@
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="272dp"
-        android:layout_height="55dp"
+        android:layout_height="40dp"
         android:layout_alignTop="@+id/textView8"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="55dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
-        android:id="@+id/next"
-        android:layout_width="255dp"
-        android:layout_height="63dp"
+        android:id="@+id/add"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginBottom="10dp"
         android:src="@drawable/button" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginLeft="81dp"
+        android:layout_marginBottom="444dp"
+        android:src="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView18"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="454dp"
+        android:text="정보 채워넣기"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView19"
@@ -194,70 +257,41 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView18"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="32dp"
-        android:text="등록"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="19dp"
+        android:text="등록하기"
         android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />
 
-
     <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView24"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:ems="10"
-        android:inputType="number" />
-
-    <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/getbacode"
-        android:layout_alignBottom="@+id/textView12"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="0dp"
-        android:text="제품명" />
-
-    <TextView
-        android:id="@+id/attribute"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView15"
-        android:layout_alignEnd="@+id/textView18"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="27dp"
-        android:text="구분" />
-
-    <ImageView
-        android:id="@+id/search"
-        android:layout_width="274dp"
-        android:layout_height="67dp"
-        android:layout_alignParentTop="true"
+        android:layout_alignBaseline="@+id/textView12"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="83dp"
-        android:layout_marginEnd="47dp"
-        android:layout_marginRight="47dp"
-        app:srcCompat="@drawable/button" />
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
 
-    <TextView
-        android:id="@+id/textView67"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/attr"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/name"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="106dp"
-        android:layout_marginEnd="-46dp"
-        android:text="물품 정보 채워넣기"
-        android:textColor="@color/bg"
-        android:textSize="20dp"
-        android:textStyle="bold" />
+        android:layout_alignBottom="@+id/imageView23"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/primary"
+
+        android:textSize="15dp" />
 
 
 </RelativeLayout>

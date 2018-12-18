@@ -49,9 +49,9 @@ public class BacodeScan extends AppCompatActivity {
         }
 
         Intent type = getIntent();//인텐트  받아오고
-        String code = intent.getStringExtra("istype");
+        String select = type.getStringExtra("istype");
 
-        if (code.equals("new")) {
+        if (select.equals("new")) {
             new Handler().postDelayed(new Runnable()
             {
                 @Override
