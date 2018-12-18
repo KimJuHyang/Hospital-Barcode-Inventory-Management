@@ -14,9 +14,8 @@ import android.widget.Toast;
 public class P_Purchase extends Activity {
 
     dbHelper helper;
-    dbHelper_sick sickhelper;
     SQLiteDatabase db;
-    EditText edit_code, edit_name, edit_attr, edit_date, edit_gender, edit_medicode, edit_medi, edit_mediattr;
+    EditText edit_code, edit_name, edit_cnt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +43,7 @@ public class P_Purchase extends Activity {
 
         edit_code = (EditText) findViewById(R.id.getbacode);
         edit_name = (EditText) findViewById(R.id.name);
+        edit_cnt = (EditText) findViewById(R.id.minuscnt);
 
         //버튼에 대한 클릭 처리기를 작성.
 
@@ -54,11 +54,12 @@ public class P_Purchase extends Activity {
             public void onClick(View v) {
                 String code = edit_code.getText().toString();
                 Cursor cursor;
-                cursor = db.rawQuery("SELECT code, name FROM contact where code='"+code+"';" , null);
+                cursor = db.rawQuery("SELECT code, name, cnt FROM contact where code='"+code+"';" , null);
 
                 while(cursor.moveToNext()){
                     String name = cursor.getString(1);
                     edit_name.setText(name);
+
                 }
 
                 Toast.makeText(P_Purchase.this, "검색완료!!!", Toast.LENGTH_SHORT).show();
@@ -67,15 +68,33 @@ public class P_Purchase extends Activity {
 
             });
 
+
+        //수량변경
         ImageView b = (ImageView) findViewById(R.id.update);
         b.setOnClickListener(new View.OnClickListener() {
+            String temp;
+
             @Override
             public void onClick(View view) {
 
-                Intent change = new Intent(
-                        getApplicationContext(), // 현재 화면의 제어권자
-                        P_updatePurchaseCnt.class); // 다음 넘어갈 클래스 지정
-                startActivity(change);
+                String code = edit_code.getText().toString();
+                Cursor cursor2;
+                cursor2 = db.rawQuery("SELECT code, cnt FROM contact where code='"+code+"';" , null);
+
+                while(cursor2.moveToNext()){
+                    temp = cursor2.getString(1);
+                }
+
+                String cnt = edit_cnt.getText().toString();
+
+                int oldcnt = Integer.parseInt(temp);
+                int minuscnt = Integer.parseInt(cnt);
+
+                int newcnt = oldcnt - minuscnt;
+                String updatecnt = String.valueOf(newcnt);
+                db.execSQL("UPDATE contact SET cnt='" +updatecnt+ "' where code='" + code + "';");
+
+                Toast.makeText(P_Purchase.this, "수량변경완료! 재고상황을 확인하세요", Toast.LENGTH_SHORT).show();
             }
         });
 

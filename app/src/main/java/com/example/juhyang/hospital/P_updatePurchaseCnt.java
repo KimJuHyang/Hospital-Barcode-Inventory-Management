@@ -1,12 +1,21 @@
 package com.example.juhyang.hospital;
 
 import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class P_updatePurchaseCnt extends AppCompatActivity {
+
+    dbHelper helper;
+    SQLiteDatabase db;
+    EditText edit_code, edit_cnt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +35,7 @@ public class P_updatePurchaseCnt extends AppCompatActivity {
             }
         });
 
+
         //클릭시 다음화면 넘어가기
         ImageView a = (ImageView) findViewById(R.id.no);
         a.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +50,7 @@ public class P_updatePurchaseCnt extends AppCompatActivity {
         });
 
 
-        //1. 수량 마이너스 하는것 업데이트하기
+
+
     }
 }
