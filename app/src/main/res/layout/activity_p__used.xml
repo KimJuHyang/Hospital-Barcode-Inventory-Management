@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
@@ -8,6 +7,93 @@
     android:background="@color/bg"
     >
 
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="422dp"
+        android:src="@drawable/high_color_rectangle2" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView41"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="437dp"
+        android:text="사용할 환자를 입력하세요"
+        android:textColor="@color/primary"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView47"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="-74dp"
+        android:layout_toStartOf="@+id/searchsick"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/primary" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView47"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="-132dp"
+        android:layout_toStartOf="@+id/searchsick"
+        android:ems="10"
+
+
+        android:textColor="@color/primary" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView47"
+        android:layout_marginEnd="-14dp"
+        android:layout_marginBottom="-194dp"
+        android:layout_toStartOf="@+id/searchsick"
+        android:ems="10"
+
+
+        android:textColor="@color/primary" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="282dp"
+        android:text="환자명"
+        android:textColor="@color/primary"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="221dp"
+        android:layout_height="47dp"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/imageView32"
@@ -42,11 +128,11 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/imageView32"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="174dp"
-        android:layout_marginEnd="0dp"
-        android:text="환자명"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="-11dp"
+        android:text="환자 코드"
         android:textColor="@color/primary"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView41"
@@ -55,12 +141,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
-        android:layout_marginTop="231dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="339dp"
         android:text="생년월일"
         android:textColor="@color/primary"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView42"
@@ -69,70 +155,10 @@
         android:layout_alignStart="@+id/textView41"
         android:layout_alignParentTop="true"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="289dp"
+        android:layout_marginTop="397dp"
         android:text="성별"
         android:textColor="@color/primary"
-        android:textStyle="bold"/>
-
-    <ImageView
-        android:id="@+id/searchSick"
-        android:layout_width="217dp"
-        android:layout_height="59dp"
-        android:layout_alignStart="@+id/textView31"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-48dp"
-        android:layout_marginTop="85dp"
-        android:src="@drawable/button" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView31"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="101dp"
-        android:layout_marginEnd="-6dp"
-        android:text="환자 검색"
-        android:textColor="@color/bg"
-        android:textSize="20dp"
         android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="match_parent"
-        android:layout_height="59dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="175dp"
-        android:src="@drawable/high_color_rectangle2" />
-
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView41"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-3dp"
-        android:layout_marginBottom="189dp"
-        android:text="사용 의료품"
-        android:textColor="@color/primary"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <ImageView
-        android:id="@+id/imageView44"
-        android:layout_width="23dp"
-        android:layout_height="26dp"
-        android:layout_alignTop="@+id/textView52"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="-1dp"
-        android:layout_marginEnd="26dp"
-        android:layout_marginRight="26dp"
-        android:src="@drawable/plus" />
 
     <ImageView
         android:id="@+id/imageView46"
@@ -140,18 +166,18 @@
         android:layout_height="47dp"
         android:layout_alignStart="@+id/textView31"
         android:layout_alignTop="@+id/textView33"
-        android:layout_marginStart="-35dp"
-        android:layout_marginTop="-16dp"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="121dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
         android:id="@+id/imageView47"
-        android:layout_width="221dp"
-        android:layout_height="47dp"
+        android:layout_width="252dp"
+        android:layout_height="44dp"
         android:layout_alignStart="@+id/textView31"
         android:layout_alignTop="@+id/textView33"
-        android:layout_marginStart="-35dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginStart="-28dp"
+        android:layout_marginTop="-12dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
@@ -160,20 +186,53 @@
         android:layout_height="47dp"
         android:layout_alignStart="@+id/textView31"
         android:layout_alignTop="@+id/textView33"
-        android:layout_marginStart="-35dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="182dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
-        android:id="@+id/add_used"
-        android:layout_width="41dp"
-        android:layout_height="42dp"
+        android:id="@+id/searchsick"
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        android:layout_alignTop="@+id/textView33"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_marginTop="-9dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/searchicon" />
+
+    <EditText
+        android:id="@+id/sickcode"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView47"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toStartOf="@+id/searchsick"
+        android:ems="10"
+        android:hint="환자코드를 입력하세요"
+        android:inputType="textPersonName"
+        android:textColor="@color/primary" />
+
+    <ImageView
+        android:id="@+id/addused"
+        android:layout_width="238dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="17dp"
-        android:layout_marginRight="17dp"
-        android:layout_marginBottom="183dp"
-        android:src="@drawable/shape" />
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="54dp"
+        android:src="@drawable/button" />
+
+    <TextView
+        android:id="@+id/nexts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:text="NEXT"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

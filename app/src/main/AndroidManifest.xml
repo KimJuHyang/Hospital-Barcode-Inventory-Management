@@ -59,7 +59,6 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_sick_DB"
-            android:label="@string/title_activity_p_sick__db"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".P_Purchase"
@@ -71,9 +70,6 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".BacodeScan"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity
-            android:name=".P_BacodeScan"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".AnyOrientationCaptureActivity"
@@ -88,9 +84,12 @@
             android:name=".requestDB"
             android:label="@string/title_activity_request_db"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-        <activity android:name=".M_select" />
-        <activity android:name=".M_already_Purchase"></activity>
-        <activity android:name=".InventoryDB"></activity>
+        <activity android:name=".M_select"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".M_already_Purchase"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".P_updatePurchaseCnt"
+            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
     </application>
 
 </manifest>

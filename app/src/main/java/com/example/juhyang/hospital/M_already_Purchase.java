@@ -30,6 +30,7 @@ public class M_already_Purchase extends AppCompatActivity {
         codeset.setText(code); //바코드 표시
 
 
+        // DB search code
             helper = new dbHelper(this);
             try {
                 db = helper.getWritableDatabase();

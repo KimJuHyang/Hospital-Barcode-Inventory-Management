@@ -55,6 +55,8 @@ public class M_Purchase extends Activity {
 
             @Override
             public void onClick(View v) {
+
+
                 String code = edit_code.getText().toString();
                 String name = edit_name.getText().toString();
                 String attr = edit_attr.getText().toString();
@@ -67,7 +69,9 @@ public class M_Purchase extends Activity {
                 db.execSQL("INSERT INTO contact VALUES(null, '"+code+"','"+name+"','"+attr+"'," +
                         "'"+cnt+"','"+made+"','"+maneger+"','"+phone+"','"+usedate+"');");
 
-                Toast.makeText(M_Purchase.this, "등록완료", Toast.LENGTH_SHORT).show();
+                Toast.makeText(M_Purchase.this, "등록완료 !! ", Toast.LENGTH_SHORT).show();
+
+
 
             }
 

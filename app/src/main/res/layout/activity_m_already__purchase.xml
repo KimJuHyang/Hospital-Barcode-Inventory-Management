@@ -221,9 +221,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="81dp"
-        android:layout_marginLeft="81dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginBottom="75dp"
         android:src="@drawable/button" />
 
     <ImageView
@@ -257,8 +257,8 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView18"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="19dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="84dp"
         android:text="등록하기"
         android:textColor="@color/bg"
         android:textSize="20dp"

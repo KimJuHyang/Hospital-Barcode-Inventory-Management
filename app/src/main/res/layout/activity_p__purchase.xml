@@ -9,27 +9,40 @@
     >
 
 
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginBottom="410dp"
+        android:src="@drawable/button" />
+
     <TextView
-        android:id="@+id/textView57"
+        android:id="@+id/textt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView45"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="354dp"
-        android:layout_marginEnd="14dp"
-        android:text="구분"
-        android:textColor="@color/primary"
+        android:layout_alignEnd="@+id/search"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="422dp"
+        android:text="정보 채워넣기"
+        android:textColor="@color/bg"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/textView59"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView57"
+        android:layout_width="76dp"
+        android:layout_height="30dp"
         android:layout_alignEnd="@+id/imageView45"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="409dp"
-        android:layout_marginEnd="-4dp"
-        android:text="사용기한"
+        android:layout_marginTop="334dp"
+        android:layout_marginEnd="-19dp"
+        android:text="사용 수량"
         android:textColor="@color/primary"
         android:textStyle="bold" />
 
@@ -57,38 +70,14 @@
         android:textColor="@color/primary"
         android:textSize="15dp"/>
 
-    <ImageView
-        android:id="@+id/imageView49"
-        android:layout_width="245dp"
-        android:layout_height="119dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginRight="30dp"
-        android:src="@drawable/high_color_rectangle" />
-
-    <TextView
-        android:id="@+id/textView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/imageView45"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="132dp"
-        android:layout_marginEnd="14dp"
-        android:text="사진"
-        android:textColor="@color/primary"
-        android:textStyle="bold" />
-
     <TextView
         android:id="@+id/textView55"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/imageView45"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="232dp"
-        android:layout_marginEnd="3dp"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="7dp"
         android:text="바코드"
         android:textColor="@color/primary"
         android:textStyle="bold" />
@@ -99,8 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/imageView45"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="293dp"
-        android:layout_marginEnd="5dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="9dp"
         android:text="제품명"
         android:textColor="@color/primary"
         android:textStyle="bold" />
@@ -112,9 +101,9 @@
         android:layout_alignBottom="@+id/textView55"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
-        android:layout_marginBottom="-14dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="-10dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
@@ -124,9 +113,9 @@
         android:layout_alignBottom="@+id/textView55"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="41dp"
-        android:layout_marginRight="41dp"
-        android:layout_marginBottom="-75dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="-71dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
@@ -136,30 +125,19 @@
         android:layout_alignBottom="@+id/textView55"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="-135dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="-131dp"
         android:src="@drawable/shape_soft_rectangle" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="222dp"
-        android:layout_height="45dp"
-        android:layout_alignBottom="@+id/textView55"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="-194dp"
-        android:src="@drawable/shape_soft_rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView53"
+        android:id="@+id/update"
         android:layout_width="252dp"
         android:layout_height="67dp"
         android:layout_alignEnd="@+id/imageView50"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="54dp"
         android:src="@drawable/button" />
 
     <TextView
@@ -169,12 +147,54 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="124dp"
-        android:layout_marginRight="124dp"
-        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="74dp"
         android:text="등록하기"
         android:textColor="@color/bg"
         android:textSize="20dp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/getbacode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView50"
+        android:layout_alignEnd="@+id/imageView50"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView50"
+        android:layout_alignEnd="@+id/imageView50"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/minuscnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView50"
+        android:layout_alignEnd="@+id/imageView50"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textColor="@color/primary"
+        android:textSize="15dp" />
 
 </RelativeLayout>
