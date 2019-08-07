@@ -1,9 +1,13 @@
 # mobile-programing
 병원 재고관리 APP 제작
 
+-------------
+<h3> Screen Shot <h3>
+
+<img src=""   width = "300px" height = "300px"></img>
+
 **1. 일반 재고관리로 앱 최종본 제작**<br>
-**2. 사업 분야별 맞춤 모드 기능 추가 확장**<br>
-**3. input, output 엑셀 지원**
+**2. input, output 엑셀 지원**
 
 --------------
 * 추가 기능 <br>
