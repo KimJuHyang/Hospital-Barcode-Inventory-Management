@@ -1,4 +1,4 @@
-# mobile-programing
+# Hospital Barcode Inventory Management
 병원 재고관리 APP 제작
 
 -------------
