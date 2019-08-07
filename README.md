@@ -3,7 +3,7 @@
 
 -------------
 <h3> Screen Shot <h3>
-![all](https://user-images.githubusercontent.com/16666658/62586789-0ebb4700-b8fa-11e9-90f7-86078cbc016f.png)
+	<img src="https://user-images.githubusercontent.com/16666658/62586789-0ebb4700-b8fa-11e9-90f7-86078cbc016f.png" width="100%"></img>
 
 **1. 일반 재고관리로 앱 최종본 제작**<br>
 **2. input, output 엑셀 지원**
